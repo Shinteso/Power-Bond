@@ -1,9 +1,34 @@
 {
-  "idle": {
-    "filename": "player_idle.png",
-    "location": [0, 0],
-    "size": [48, 64],
-    "sprite_size" : [16, 32],
-    "scale": 2
+  "sprites" : [
+    {
+      "name" : "idle",
+      "filename": "player_idle.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "walking",
+      "filename": "player_walking_with_gun.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    }
+  ],
+  "physics" : {
+    "position" : [10,5],
+    "velocity" : [0,0],
+    "acceleration": [0, -30],
+    "gravity" : -30.0,
+    "damping" : 0.9,
+    "walk_acceleration": 60.0,
+    "jump_velocity": 20.0,
+    "terminal_velocity" : 30.0
   }
 }

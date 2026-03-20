@@ -15,6 +15,7 @@ bool on_platform(World& world, GameObject& obj) {
 // Standing
 void Standing::on_enter(World&, GameObject& obj) {
     obj.color = {255, 0, 0, 255};
+    obj.set_sprite("idle");
     obj.physics.acceleration.x = 0;
 }
 
@@ -66,6 +67,7 @@ Action *InAir::input(World&, GameObject& obj, ActionType action_type) {
 // Running
 void Running::on_enter(World&, GameObject& obj) {
     obj.color = {255, 255, 0, 255};
+    obj.set_sprite("walking");
 }
 
 Action* Running::input(World& world, GameObject& obj, ActionType action_type) {
