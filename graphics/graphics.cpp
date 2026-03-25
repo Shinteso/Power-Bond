@@ -1,20 +1,18 @@
 #include "graphics.h"
 
-Graphics::Graphics(const std::string& title, int window_width, int window_height)
-    : title{title}, width{window_width}, height{window_height} {
-    SDL_SetAppMetadata(title.data(), "1.0", NULL);
+Graphics::Graphics( std::string title, int width, int height)
+    : width{width}, height{height} {
 
+    // Set up window/renderer
+    SDL_SetAppMetadata(title.data(), "1.0", NULL);
     if (!SDL_CreateWindowAndRenderer(title.data(), width, height, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
         SDL_Log("Couldn't create window/renderer: %s", SDL_GetError());
     }
-
     SDL_SetRenderLogicalPresentation(renderer, width, height, SDL_LOGICAL_PRESENTATION_LETTERBOX);
+    SDL_SetRenderDrawBlendMode(renderer, SDL_BLENDMODE_BLEND);;
 }
 
-void Graphics::clear() {
-    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
-    SDL_RenderClear(renderer);
-}
+
 
 void Graphics::draw(const SDL_FRect& rect, const Color& color, bool filled) {
     auto [red, green, blue, alpha] = color;
@@ -27,8 +25,17 @@ void Graphics::draw(const SDL_FRect& rect, const Color& color, bool filled) {
     }
 }
 
+void Graphics::clear() {
+    SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+    SDL_RenderClear(renderer);
+}
+
 void Graphics::update() {
     SDL_RenderPresent(renderer);
+}
+
+void Graphics::set_title(const std::string &title) {
+    SDL_SetWindowTitle(window, title.c_str());
 }
 
 int Graphics::get_texture_id(const std::string& image_filename) {
@@ -39,6 +46,9 @@ int Graphics::get_texture_id(const std::string& image_filename) {
     }
     else { // this is a new image file
         SDL_Surface* surface = SDL_LoadPNG(image_filename.c_str());
+        if (!surface) {
+            throw std::runtime_error("Could not load image: " + image_filename + " — " + SDL_GetError());
+        }
         SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
         SDL_DestroySurface(surface);
         SDL_SetTextureScaleMode(texture, SDL_SCALEMODE_NEAREST);

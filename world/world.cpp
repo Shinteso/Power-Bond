@@ -8,14 +8,18 @@
 #include "fsm.h"
 #include "states.h"
 #include "keyboard_input.h"
+#include "level.h"
+#include "audio.h"
 
-World::World(int width, int height)
-    : tilemap{width, height} {}
+World::World(const Level& level, Audio& audio)
+    : tilemap{level.width, level.height}, audio{&audio} {
+    load_level(level);
+}
 
 void World::add_platform(float x, float y, float width, float height) {
     for (int i = 0; i < height; ++i) {
         for (int j = 0; j < width; ++j) {
-            tilemap(x+j, y+i) = Tile::Platform;
+            tilemap(x+j, y+i) = Tile{};
         }
     }
 }
@@ -24,10 +28,10 @@ void World::add_platform(float x, float y, float width, float height) {
 bool World::collides(const Vec<float> &position) const {
     int x =  std::floor(position.x);
     int y =  std::floor(position.y);
-    return tilemap(x, y) == Tile::Platform;
+    return tilemap(x, y).blocking;
 }
 
-GameObject* World::create_player() {
+GameObject* World::create_player(const Level& level) {
     // Create fsm
     Transitions transitions = {
         {{StateType::Standing, Transition::Jump}, StateType::InAir},
@@ -55,8 +59,15 @@ GameObject* World::create_player() {
     // player input
     KeyboardInput* input = new KeyboardInput;
 
-    player = std::make_unique<GameObject>(Vec<int>{1,1}, *this, fsm, input, Color{255, 0, 0, 255});
-    return player.get();
+    player = new GameObject(Vec<int>{1,1}, *this, fsm, input, Color{255, 0, 0, 255});
+    return player;
+}
+
+void World::load_level(const Level& level) {
+    for (const auto& [pos, tile_id] : level.tile_locations) {
+        tilemap(pos.x, pos.y) = level.tile_types.at(tile_id);
+    }
+    audio->load_sounds({});
 }
 
 void World::update(float dt) {
