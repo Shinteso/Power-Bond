@@ -47,3 +47,12 @@ Maybe end of project thing to add would be:
 
 ex check 4 times a day
 P(0) = (4^0)(e^-4)/0! = 0.018
+
+
+Add new level setup - if scroll on tiles I will make more personlized
+
+- Hope to add a background picture
+
+- Add enemies and lock to right side
+
+- Get rid of walls and make the edge of tilemap on right side = new level.

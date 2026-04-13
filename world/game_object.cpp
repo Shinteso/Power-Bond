@@ -8,7 +8,7 @@
 #include "action.h"
 #include "input.h"
 
-GameObject::GameObject(const Vec<int>& size, World& world, FSM* fsm, Input* input, Color color)
+GameObject::GameObject(const Vec<int>& size, FSM* fsm, Input* input, Color color)
     : size{size}, fsm{fsm}, input{input}, color{color} {}
 
 GameObject::~GameObject() {

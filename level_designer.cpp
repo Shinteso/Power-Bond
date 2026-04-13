@@ -13,6 +13,7 @@ LevelDesigner::LevelDesigner(const std::string &level_name, int width, int heigh
     display_rect{0.0f, 0.0f, graphics.width*(2.0f/3.0f), static_cast<float>(graphics.height)},
     tiles_rect{graphics.width*(2.0f/3.0f), 0.0f, graphics.width*(1.0f/3.0f), static_cast<float>(graphics.height)}{
     update_title();
+
     AssetManager::get_level_details(graphics, level);
 
     // set up palette ids for tile selection
@@ -128,6 +129,12 @@ void LevelDesigner::render() {
 
                 graphics.draw_sprite({screen_x, screen_y}, tilemap(tilemap_x, tilemap_y).sprite);
                 SDL_FRect rect{screen_x, screen_y, static_cast<float>(TILESIZE), static_cast<float>(TILESIZE)};
+
+                // highlight event tiles
+                if (!tilemap(tilemap_x, tilemap_y).event_name.empty()) {
+                    graphics.draw(rect, {255, 0, 0, 100});
+                }
+
                 Color color = selected_tile == Vec<int>{tilemap_x, tilemap_y} ? Color{255, 255, 0, 255} : Color{0, 0, 0, 255};
                 graphics.draw(rect, color, false);
 

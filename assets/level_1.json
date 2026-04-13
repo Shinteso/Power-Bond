@@ -304,6 +304,13 @@
         },
         {
             "pos": [
+                27,
+                1
+            ],
+            "tile": "Sci-Fi_Tileset-Penusbmic.json:block_shadow2_r"
+        },
+        {
+            "pos": [
                 28,
                 0
             ],

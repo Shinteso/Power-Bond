@@ -17,7 +17,7 @@ using Sprites = std::map<std::string, AnimatedSprite>;
 
 class GameObject {
 public:
-    GameObject(const Vec<int>& size, World& world, FSM* fsm, Input* input, Color color);
+    GameObject(const Vec<int>& size, FSM* fsm, Input* input, Color color);
     ~GameObject();
 
 
