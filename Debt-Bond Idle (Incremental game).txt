@@ -1,0 +1,58 @@
+Debt-Bond Idle (Incremental game)
+
+Structure background:
+- Horizontal scroller
+- Enemies/boss on right side and mc and debt-bonds on the left
+
+
+
+Structure:
+- main character is in debt and has to pay off an absorbent amount.
+- Heroes to help the main character are called debt-bonds (you pay off their debt to have them bonded to you and help you earn money/fight/hunt)
+- Currency is gold coins
+
+- Map positioning things
+    - Set the player on the far left side with either the "debt-bonds" being on separate platforms or in a line behind the player. All allies including the player with be the size of one tile
+    - Enemies will spawn on the right and being about 4 tiles large
+    - Will make place-holders for both of these
+
+- Gameplay loop will be made after all graphics and menus are made
+- Gameplay loop
+    - Enemies
+        - Hp bar for enemies will be at top of screen
+        - Once Hp bar is empty will choose a random enemy from a list and spawn it (maybe special types of enemies)
+        - After 10 kills move fight a boss to get to next stage (call boss and stage transition)
+        - scale up enemy hp by a certain amount (thinking hp * 1.5 * stage)`
+    - Player
+        - Once you kill an enemy they drop money (dont know how im going to scale this yet)
+        - Use money to upgrade character stats/level up player
+        - Can also use money to buy debt-bonds for idle damage (may make a player idle upgrade (prestige or regular) or just leave player auto attacking
+        - Once player cannot progress anymore then offer prestige/absolvement of debt (reset game), (timer maybe on boss (10th kill)) so then after 3 tries if you cant complete offer prestige.
+        - After prestige same gameplay loop but can use prestige shop
+        - May make finite levels but should easily be able to be made infinite if I can get scaling right
+
+- Things I need to add
+    - Text on screen for upgrade menu and hp bar and currency, plus small tips
+    - Sprite sheet/array/list for the enemies and then sprites for the debt bonds and player
+    - Mechanics for attacks fsm for projectiles and stages
+    - upgrade menu
+    - basic scaling
+
+Maybe end of project thing to add would be:
+- Prestige function (Excess money can be converted to prestige points (ratio to be determined)
+- Prestige upgrades or shop
+- Harder difficulty scaling
+- Challenge runs/Mode
+
+
+ex check 4 times a day
+P(0) = (4^0)(e^-4)/0! = 0.018
+
+
+Add new level setup - if scroll on tiles I will make more personlized
+
+- Hope to add a background picture
+
+- Add enemies and lock to right side
+
+- Get rid of walls and make the edge of tilemap on right side = new level.

@@ -93,21 +93,24 @@ void Game::render() {
     // draw the world
     camera.render(world->tilemap);
 
-    // draw the player
-    camera.render(*player);
 
-    // enemies
-    for (auto& obj: world->game_objects) {
-        camera.render(*obj);
-    }
+    if (mode != GameMode::GameOver && mode != GameMode::Win) {
+        // draw the player
+        camera.render(*player);
 
-    // Projectiles
-    for (auto& projectile : world->projectiles) {
-        camera.render(*projectile);
+        // draw enemies
+        for (auto& obj : world->game_objects) {
+            camera.render(*obj);
+        }
+
+        // draw projectiles
+        for (auto& projectile : world->projectiles) {
+            camera.render(*projectile);
+        }
     }
 
     // game end
-    if (mode == GameMode::GameOver) {
+   if (mode == GameMode::GameOver) {
         camera.render_game_over();
     }
 
