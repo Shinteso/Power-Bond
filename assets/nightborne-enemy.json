@@ -1,0 +1,38 @@
+{
+  "sprites" : [
+    {
+      "name" : "idle",
+      "filename" : "enemies/nightborne-idle.png",
+      "location" : [0, 0],
+      "size" : [64, 64],
+      "sprite_size" : [64, 64],
+      "scale" : 2,
+      "number_of_frames" : 9,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "walking",
+      "filename" : "enemies/nightborne-running.png",
+      "location" : [0, 0],
+      "size" : [64, 64],
+      "sprite_size" : [64, 64],
+      "scale" : 2,
+      "number_of_frames" : 6,
+      "dt_per_frame" : 0.1
+    }
+  ],
+  "physics" : {
+    "velocity": [0, 0],
+    "acceleration" : [0, -30],
+    "shift" : [0.0, -1.25],
+    "gravity": -30.0,
+    "damping": 0.9,
+    "walk_acceleration": 10.0,
+    "jump_velocity": 20.0,
+    "terminal_velocity": 30.0
+  },
+  "size": [1, 1],
+  "health": 10,
+  "max_health": 10,
+  "damage": 2
+}

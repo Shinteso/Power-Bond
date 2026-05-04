@@ -1,0 +1,149 @@
+{
+  "sprites" : [
+    {
+      "name" : "idle",
+      "filename": "player/player_idle.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "walking_left",
+      "filename": "player/player_walk_l.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "walking_right",
+      "filename": "player/player_walk_r.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "running_left",
+      "filename": "player/player_run_l.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "running_right",
+      "filename": "player/player_run_r.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "attacking_left",
+      "filename": "player/player_stand_attack_l.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "attacking_right",
+      "filename": "player/player_stand_attack_r.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "walk_attack_left",
+      "filename": "player/player_walk_attack_l.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "walk_attack_right",
+      "filename": "player/player_walk_attack_r.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "run_attack_left",
+      "filename": "player/player_run_attack_l.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "run_attack_right",
+      "filename": "player/player_run_attack_r.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "jump_left",
+      "filename": "player/player_jump_l.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    },
+    {
+      "name" : "jump_right",
+      "filename": "player/player_jump_r.png",
+      "location": [0, 0],
+      "size": [48, 64],
+      "sprite_size" : [16, 28],
+      "scale": 2,
+      "number_of_frames" : 8,
+      "dt_per_frame" : 0.1
+    }
+  ],
+  "physics" : {
+    "position" : [10,5],
+    "velocity" : [0,0],
+    "acceleration": [0, -30],
+    "shift" : [0.0, -0.25],
+    "gravity" : -30.0,
+    "damping" : 0.9,
+    "walk_acceleration": 25.0,
+    "jump_velocity": 13.5,
+    "terminal_velocity" : 30.0
+  },
+  "size": [1, 1],
+  "health" : 20,
+  "max_health" : 20,
+  "damage": 5
+}
