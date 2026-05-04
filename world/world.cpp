@@ -61,9 +61,6 @@ void World::update(double dt) {
     // check for collision with the player
     build_quadtree();
     std::vector<GameObject*> collides_with = quadtree.query_range(player->get_bounding_box());
-    if (collides_with.size() > 1) {
-        std::cout << "Collided!\n";
-    }
     for (auto& obj : collides_with) {
         if (obj == player) continue;
         player->take_damage(obj->damage);

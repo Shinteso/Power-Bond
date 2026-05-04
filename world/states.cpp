@@ -175,7 +175,6 @@ Action* Running::input(World& world, GameObject& obj, ActionType action_type) {
 }
 
 void Attacking::on_enter(World&, GameObject& obj) {
-    SDL_Log("Attacking::on_enter");
     obj.color = {255, 155, 100,255};
     elapsed = 0.0;
     obj.set_sprite(obj.facing_right ? "attacking_right" : "attacking_left");
