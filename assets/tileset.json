@@ -1,0 +1,1476 @@
+{
+  "tiles": [
+    {
+      "sprite": {
+        "name": "wall_brick_tl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          0,
+          0
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_tm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          32,
+          0
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_pillar_t",
+        "filename": "tiles/tileset.png",
+        "location": [
+          64,
+          0
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_pillar_m",
+        "filename": "tiles/tileset.png",
+        "location": [
+          96,
+          0
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_tr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          128,
+          0
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_tl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          160,
+          0
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_tm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          192,
+          0
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_tr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          224,
+          0
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_ml",
+        "filename": "tiles/tileset.png",
+        "location": [
+          0,
+          32
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_mm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          32,
+          32
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_pillar_b",
+        "filename": "tiles/tileset.png",
+        "location": [
+          64,
+          32
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_pillar_fill",
+        "filename": "tiles/tileset.png",
+        "location": [
+          96,
+          32
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_mr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          128,
+          32
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_ml",
+        "filename": "tiles/tileset.png",
+        "location": [
+          160,
+          32
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_mm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          192,
+          32
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_mr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          224,
+          32
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_bl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          0,
+          64
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_bm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          32,
+          64
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_corner_bl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          64,
+          64
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_corner_br",
+        "filename": "tiles/tileset.png",
+        "location": [
+          96,
+          64
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_brick_br",
+        "filename": "tiles/tileset.png",
+        "location": [
+          128,
+          64
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_bl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          160,
+          64
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_bm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          192,
+          64
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_detail_br",
+        "filename": "tiles/tileset.png",
+        "location": [
+          224,
+          64
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "ledge_l",
+        "filename": "tiles/tileset.png",
+        "location": [
+          0,
+          96
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "ledge_m",
+        "filename": "tiles/tileset.png",
+        "location": [
+          32,
+          96
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "ledge_r",
+        "filename": "tiles/tileset.png",
+        "location": [
+          64,
+          96
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "ledge_fill",
+        "filename": "tiles/tileset.png",
+        "location": [
+          96,
+          96
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_side_t",
+        "filename": "tiles/tileset.png",
+        "location": [
+          128,
+          96
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_side_m",
+        "filename": "tiles/tileset.png",
+        "location": [
+          160,
+          96
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_side_b",
+        "filename": "tiles/tileset.png",
+        "location": [
+          192,
+          96
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "wall_side_fill",
+        "filename": "tiles/tileset.png",
+        "location": [
+          224,
+          96
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "roof_chevron_tl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          0,
+          128
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "roof_chevron_tm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          32,
+          128
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "roof_chevron_tr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          64,
+          128
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "roof_fill_l",
+        "filename": "tiles/tileset.png",
+        "location": [
+          96,
+          128
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "roof_fill_m",
+        "filename": "tiles/tileset.png",
+        "location": [
+          128,
+          128
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "roof_fill_r",
+        "filename": "tiles/tileset.png",
+        "location": [
+          160,
+          128
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_dark_l",
+        "filename": "tiles/tileset.png",
+        "location": [
+          192,
+          128
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_dark_m",
+        "filename": "tiles/tileset.png",
+        "location": [
+          224,
+          128
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_brick_tl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          0,
+          160
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_brick_tm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          32,
+          160
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_brick_tr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          64,
+          160
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_brick_ml",
+        "filename": "tiles/tileset.png",
+        "location": [
+          96,
+          160
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_brick_mm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          128,
+          160
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_brick_mr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          160,
+          160
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_brick_bl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          192,
+          160
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "floor_brick_bm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          224,
+          160
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "Entrance/Exit",
+        "filename": "tiles/tileset.png",
+        "location": [
+          0,
+          192
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": "next_level"
+    },
+    {
+      "sprite": {
+        "name": "tech_floor_tm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          32,
+          192
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_floor_tr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          64,
+          192
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_floor_ml",
+        "filename": "tiles/tileset.png",
+        "location": [
+          96,
+          192
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_floor_mm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          128,
+          192
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_floor_mr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          160,
+          192
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_floor_bl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          192,
+          192
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": false,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_floor_bm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          224,
+          192
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_detail_tl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          0,
+          224
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_detail_tm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          32,
+          224
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_detail_tr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          64,
+          224
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_detail_ml",
+        "filename": "tiles/tileset.png",
+        "location": [
+          96,
+          224
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_detail_mm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          128,
+          224
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_detail_mr",
+        "filename": "tiles/tileset.png",
+        "location": [
+          160,
+          224
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_detail_bl",
+        "filename": "tiles/tileset.png",
+        "location": [
+          192,
+          224
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    },
+    {
+      "sprite": {
+        "name": "tech_detail_bm",
+        "filename": "tiles/tileset.png",
+        "location": [
+          224,
+          224
+        ],
+        "size": [
+          32,
+          32
+        ],
+        "sprite_size": [
+          32,
+          32
+        ],
+        "scale": 2,
+        "number_of_frames": 1,
+        "dt_per_frame": -1
+      },
+      "blocking": true,
+      "event_name": ""
+    }
+  ]
+}
